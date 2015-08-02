@@ -1,6 +1,6 @@
 def LetterChanges(str)
   
- str=str.tr('a-y','b-z').tr('z','a').tr('by','BY')
+ str=str.tr('a-y','b-z').tr('z','a').tr('aeiou','AEIOU')
   # code goes here
   return str 
          
